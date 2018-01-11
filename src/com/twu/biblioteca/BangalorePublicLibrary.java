@@ -7,22 +7,13 @@ import java.util.Scanner;
 public class BangalorePublicLibrary {
 
     private List<Book> books = new ArrayList<Book>();
-    private List<Movie> movies = new ArrayList<Movie>();
 
     public List<Book> getBooks() {
         return books;
     }
 
-    public  List<Movie> getMovies(){
-        return movies;
-    }
-
     public void setBooks(Book book) {
         books.add(book);
-    }
-
-    public void setMovies(Movie movie) {
-        movies.add(movie);
     }
 
     public void listBooks() {
